@@ -1,9 +1,7 @@
 import { defineConfig } from 'astro/config';
-import netlify from '@astrojs/netlify/functions';
+import zeabur from '@zeabur/astro-adapter/serverless';
 
 export default defineConfig({
   output: 'server',
-  adapter: netlify({
-    edgeMiddleware: true
-  }),
+  adapter: zeabur(),
 });
