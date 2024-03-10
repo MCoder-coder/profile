@@ -1,0 +1,112 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Perfil</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Soy un desarrollador Full Stack apasionado con experiencia en el desarrollo web y la creación de 
+    aplicaciones móviles Android. 
+    <br>
+    Me centro en crear software robusto y limpio, siguiendo las mejores prácticas del "código limpio" e implementando pruebas exhaustivas para garantizar la calidad del producto.
+
+    Habilidades:
+    Desarrollo Web:
+    <br>
+    Frontend: Experto en Angular, con experiencia en la construcción de componentes, servicios y manejo de rutas para crear aplicaciones web dinámicas y de una sola página (SPA).
+    <br>
+    Backend: Experto en Node.js, con experiencia en la creación de APIs RESTful y el manejo de solicitudes HTTP.
+    Bases de datos: Conocimiento en el manejo de bases de datos en entornos Node.js, como MongoDB o MySQL.
+    <br>
+    Pruebas: Familiaridad con pruebas unitarias utilizando Jest en el frontend y backend.
+    Renderizado del lado del servidor (SSR): Conocimientos básicos en SSR con Node.js para mejorar el rendimiento.
+    Despliegue: Experiencia en el despliegue de aplicaciones Angular y Node.js en plataformas como Firebase, Netlify, Heroku o AWS.
+    Android:
+    <br>
+    Desarrollo nativo: Experiencia en la creación de aplicaciones Android nativas con Java y Kotlin.
+    Material Design: Implementación de las directrices de Material Design para crear interfaces de usuario intuitivas y atractivas.
+    Arquitectura: Conocimiento de patrones de arquitectura como MVVM y MVP para crear aplicaciones escalables y mantenibles.
+    <br>
+    Pruebas: Experiencia en pruebas unitarias y de instrumentación para garantizar la calidad del código.
+    Integración con APIs: Experiencia en la integración de aplicaciones Android con APIs RESTful.
+    Cualidades:
+    <br>
+    Apasionado por el desarrollo de software y la creación de productos de alta calidad.
+    Meticuloso y orientado a los detalles, con un fuerte enfoque en la calidad del código.
+    Autodidacta y con capacidad para aprender nuevas tecnologías rápidamente.
+    Capaz de trabajar de forma independiente y como parte de un equipo.
+    Excelente comunicador y colaborador.
+    <br>
+    ¿Qué puedo ofrecer?
+    Puedo desarrollar aplicaciones web y móviles robustas, escalables y de alto rendimiento.
+    Puedo trabajar de forma autónoma o como parte de un equipo.
+    <br>
+    Soy un rápido aprendiz y tengo una gran capacidad de adaptación a nuevas tecnologías.
+    Tengo un fuerte compromiso con la calidad del código y las mejores prácticas de desarrollo.
+    <br>
+    Si buscas un desarrollador Full Stack apasionado, con experiencia y confiable, no dudes en contactarme.
+    
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Angular (Intermediate)"
+    />
+    <a href="https://www.hackerrank.com/certificates/02f1c21ba380">
+      hackerrank</a>
+    <TimeLineElement title="Kotlin Java Developers" />
+    <a href="https://www.coursera.org/account/accomplishments/verify/CDKHPF5CG3W4">
+      Coursera Accomplishment</a>
+
+    
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Job Title at Project or Company Name"
+      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Job Title at Project or Company Name"
+      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+    </TimeLineElement>
+   
+  </div>
+
+ 
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>Android</li>
+    <li>Angular</li>
+    <li>Git</li>
+    <li>Javascript</li>
+    <li>Node.js</li> 
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>RESTful APIs</li>
+    <li>Databases (MySQL)</li>
+    <li>Unit Testing (Jest)</li>
+    <li>Version Control (Git)</li>
+</ul>
+
+</BaseLayout>
